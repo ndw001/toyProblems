@@ -4,7 +4,7 @@ var findTheDistanceValue = function(arr1, arr2, d) {
   for(let i = 0; i<arr1.length;i++){
       let found = false;
       for(let k=0;k<arr2.length;k++){
-          if(arr1[i] > arr2[k]){
+          if(arr1[i] > arr2[k]){f
               if(arr1[i] - arr2[k] <= d){
                   console.log(1,i,k)
                   found = true;
